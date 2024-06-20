@@ -25,7 +25,7 @@ const ExperienceCard: React.FC<ExperienceItem> = ({
     <div className=" bg-bluish dark:bg-[rgb(15,22,36)] bg-opacity-20 z-50 ring-2 ring-[#1c9cf7] dark:ring-[#520de6] backdrop-blur-sm w-11/12 lg:w-3/4 shadow-2xl shadow-[#1c9cf7]/50 dark:shadow-[#5526ba]/75 card-experience rounded-3xl p-6 flex flex-col justify-between">
     <div>
       <div className="flex items-start mb-4 gap-8">
-        <img src={image} alt={title} className="w-16 h-16 aspect-square rounded-xl border border-gray-dark/30 dark:border-gray-light/30 " />
+        <img src={image} alt={title} className="w-16 h-16 aspect-square rounded-xl border border-gray-dark/30 dark:border-gray-light/30 bg-white " />
         <div className='w-full flex-1'>
           <h3 className="text-lg font-bold">{title}</h3>
           <p className="text-gray-500 font-medium inline-flex gap-1">{company} · {position}</p>

@@ -135,7 +135,7 @@ const AboutMe: React.FC = () => {
                   }}
                 >
                   <img
-                    src="/images/photo-2-bw.png"
+                    src="/images/photo.PNG"
                     alt="photo-profile"
                     className="object-contain"
                   />
