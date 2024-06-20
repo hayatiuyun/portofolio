@@ -78,12 +78,12 @@ const Experience = () => {
             <div className="absolute z-50 aspect-square h-[180%] -translate-x-[40%] translate-y-24 rounded-full bg-[radial-gradient(#6633ccff_0%,_#3399ff56_32%,_#3399ff00_80%)] opacity-75"></div>
             <div className="absolute z-50 aspect-square h-[80%] -translate-y-48 translate-x-[180%]  rounded-full bg-[radial-gradient(#5526bacc_0%,_#5526ba88_30%,_transparent_70%)] opacity-30"></div>
             <img
-              src="/images/rocket.png"
+              src={t("experience.rocket")}
               alt="rocket"
               className="hidden -translate-x-12 translate-y-36 scale-[.55] object-contain lg:block lg:dark:hidden"
             />
             <img
-              src="/images/rocket-dark.png"
+              src={t("experience.rocket-dark")}
               alt="rocket-dark"
               className="hidden -translate-x-12 translate-y-36 scale-[.55] object-contain lg:dark:block"
             />

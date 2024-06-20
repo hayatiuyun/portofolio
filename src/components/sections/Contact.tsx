@@ -3,11 +3,13 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
+import { useTranslation } from "react-i18next";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 const Contact = () => {
   const elRef = useRef(null);
+  const { t } = useTranslation();
 
   useGSAP(
     () => {
@@ -49,7 +51,7 @@ const Contact = () => {
             <div className="relative w-[20rem] overflow-hidden !rounded-full">
               <div className="absolute z-0 aspect-square h-56 w-56 translate-x-8 translate-y-5 rounded-full bg-opacity-60 bg-[radial-gradient(#79d7ffff_0%,_transparent_100%)] backdrop-blur-sm dark:bg-[radial-gradient(#5526baff_0%,_transparent_100%)]"></div>
               <img
-                src="/images/photo.PNG"
+                src={t("about_me.image")}
                 alt="Contact"
                 className="relative z-10 aspect-square h-64 w-64 rounded-full object-cover object-right-top"
               />
