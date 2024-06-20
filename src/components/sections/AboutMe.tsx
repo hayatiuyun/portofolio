@@ -1,7 +1,6 @@
 import { Icon } from "@iconify/react";
 import { useTranslation } from "react-i18next";
 import Draggable from "../Draggable";
-import { InView } from "react-intersection-observer";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRef } from "react";
@@ -17,7 +16,6 @@ interface DraggableWithInViewProps {
 
 const DraggableWithInView: React.FC<DraggableWithInViewProps> = ({
   initialPosition,
-  delay,
   childrenKey,
   children,
 }) => {
@@ -53,7 +51,7 @@ const AboutMe: React.FC = () => {
         },
       });
 
-      cards.forEach((card: any, index) => {
+      cards.forEach((card: any) => {
         tl.to(card, {
           opacity: 1,
           x: 45,

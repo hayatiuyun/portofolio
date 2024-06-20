@@ -8,7 +8,6 @@ import Experience from "./components/sections/Experience";
 import Footer from "./components/sections/Footer";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import Contact from "./components/sections/Contact";
 
@@ -16,7 +15,6 @@ gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 
 function App() {
-  const elRef = useRef(null);
   return (
     <main className="!scroll-smooth !bg-bluish dark:!bg-[rgb(15,22,36)] text-gray-dark dark:text-white w-full">
       <GithubLink />

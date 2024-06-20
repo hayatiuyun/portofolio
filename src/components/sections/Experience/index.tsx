@@ -30,7 +30,7 @@ const Experience = () => {
         delay: 1,
       })
       // Initial setup
-      cards.forEach((card: any, index) => {
+      cards.forEach((card: any) => {
         tl.to(card, {
           y: 50,
           opacity: 1,

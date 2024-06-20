@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Icon } from "@iconify/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -29,7 +29,7 @@ const Contact = () => {
             },
       });
 
-      words.forEach((word: any, index) => {
+      words.forEach((word: any, ) => {
         tl.to(word, {
           opacity: 1,
           duration: .5
@@ -58,7 +58,7 @@ const Contact = () => {
           </div>
           <div className="flex flex-col items-center lg:items-start gap-8">
             <h1 className="text-6xl font-black max-w-[95%] lg:max-w-screen-lg !text-center lg:!text-left ">
-              {`Let's talk about your project or idea and find out how I can help your business grow.`.split(" ").map((word, index) => <span className="opacity-30 word leading-[1.25]">{word} {" "}</span>)}
+              {`Let's talk about your project or idea and find out how I can help your business grow.`.split(" ").map((word) => <span className="opacity-30 word leading-[1.25]">{word} {" "}</span>)}
             </h1>
             <hr className="border-gray/50 w-full mt-8 max-w-[95%] lg:max-w-screen-lg" />
             <div className="flex flex-wrap justify-between w-full">

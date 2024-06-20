@@ -25,7 +25,7 @@ const Skills = () => {
           end: `bottom+=${skills.length * 2}%`,
         },
       });
-      skills.forEach((skill: any, index) => {
+      skills.forEach((_, index) => {
         tl.to(".skills-set", {
           xPercent: - (index + 1) * 10,
           duration: 1,
