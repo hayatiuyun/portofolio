@@ -48,7 +48,7 @@
         "url": "https://www.instagram.com/hayatiuyun"
       }
     ],
-    "image": "photo.png",
+    "image": "images/photo.png",
     "tech_stacks": ["devicon:nextjs", "devicon:react", "devicon:flutter"]
   },
   "projects": {
@@ -323,9 +323,9 @@
         "image": "https://www.telkom.co.id/minio/show/data/image_upload/page/1594108255409_compress_logo%20telkom%20indonesia.png"
       }
     ],  
-    "rocket-dark": "/rocket-dark.png",
-    "rocket": "/rocket.png"   
+    "rocket-dark": "images/rocket-dark.png",
+    "rocket": "images/rocket.png"   
   },
   "copyright": "Copyright",
-  "logo": "striking.png"
+  "logo": "images/striking.png"
 }
