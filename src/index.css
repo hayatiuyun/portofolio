@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+    @apply !scroll-smooth !snap-y snap-mandatory !h-screen !bg-bluish dark:!bg-[rgb(15,22,36)] text-gray-dark dark:text-white w-full;
+
+}
+
+html body {
+    @apply !scroll-smooth bg-bluish dark:bg-[rgb(15,22,36)] text-gray-dark dark:text-white w-full;
+}
+html {
+    @apply !scroll-smooth bg-bluish dark:bg-[rgb(15,22,36)] text-gray-dark dark:text-white w-full;
+}
+
+.btn-border-gradient {
+    @apply bg-bluish dark:bg-[rgb(15,22,36)] rounded-xl;
+    padding: 0.75em 1.5em;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.btn-border-gradient::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 200%;
+    background: linear-gradient(90deg, #16afce, #3333ff, #5526ba);
+    transition: 1s;
+}
+
+.btn-border-gradient::after {
+    @apply absolute bg-bluish dark:bg-[rgb(15,22,36)] rounded-lg flex items-center justify-center cursor-pointer;
+    width: 96%;
+    height: 86%;   
+    content: ""; 
+}
+
+.btn-border-gradient:hover{
+    @apply scale-110
+}
+
+.btn-border-gradient:hover::before{
+    animation-name: spin;
+    animation-duration: 2.5s;
+    animation-iteration-count: 0.5;
+    animation-timing-function: linear; 
+    
+}
+
+.awssld {
+
+    --slider-height-percentage: 60%;
+    --slider-transition-duration: 700ms;
+    --organic-arrow-thickness: 4px;
+    --organic-arrow-border-radius: 0px;
+    --organic-arrow-height: 40px;
+    --control-button-width: 10%;
+    --control-button-height: 25%;
+    --control-button-background: transparent;
+    --control-bullet-color: #156ccf98;
+    --control-bullet-active-color: #156ccfe5;
+    --loader-bar-color: rgb(15,22,36,.2);
+    --loader-bar-height: 6px;
+    --content-background-color: transparent;
+    }
+ .awssld__content img {
+    @apply rounded-2xl;
+    object-fit: scale-down;
+    height: 100%;
+    width: auto;
+    top: unset;
+    left: unset;
+ }
+ 
+    .awssld__bullets {
+        bottom: -40px;
+    }
+    .awssld__bullets button{
+        @apply bg-[rgb(15,22,36)]/10 dark:bg-bluish/10;
+        margin: 3px;
+        width: 12px;
+        height: 12px;
+
+    }
+
+    .awssld__bullets .awssld__bullets--active{
+        @apply bg-[rgb(15,22,36)]/20 dark:bg-bluish/20;
+
+        scale: .85 !important;
+    }
+    
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+/* animations.css */
+.draggable-component {
+    opacity: 0;
+  }
+  
+  .draggable-component.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+.custom-list {
+    counter-reset: list-counter;
+    list-style: none;
+    padding-left: 1.5em;
+  }
+  
+  .custom-list li {
+    position: relative;
+    margin-bottom: 0.5em;
+  }
+  
+  .custom-list li::before {
+    @apply text-gray;
+    content: counter(list-counter) ".";
+    counter-increment: list-counter;
+    position: absolute;
+    left: -1.5em;/* Change this to your desired decimal color */
+  }
+  
+  .custom-list li {
+    @apply text-gray-dark dark:text-white
+  }
+
+ .card-experience {
+    @apply absolute translate-y-[100%] lg:translate-y-[150%] opacity-0;
+ } 

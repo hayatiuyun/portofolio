@@ -1,0 +1,215 @@
+{
+    "basic_info": {
+      "name": "Hayati Qurrotul Uyun",
+      "titles": [
+        "Front-end Developer",
+        "Web Front-end Developer",
+        "Mobile App Developer",
+        "Data Analytics"
+      ],
+      "socials": [
+        {
+          "icon": "mdi:linkedin",
+          "url": "https://www.linkedin.com/in/hayati-uyun"
+        },
+        {
+          "icon": "mdi:github",
+          "url": "https://github.com/hayatiuyun"
+        }
+      ]
+    },
+    "about_me": {
+      "title": "About me",
+      "greeting": "Hi",
+      "content": " 👋 I'm Hayati Qurrotul Uyun. I'm a Front End Developer with three years of collaborative web app building under my belt. Fluent in JavaScript, I specialize in Next.js, React, MUI, and Tailwind, with TypeScript on my radar for further skill expansion. My focus is on crafting clean, efficient code and tackling complex problems with simple, elegant solutions. Let's embark on a journey where innovation meets precision, and together, we'll create something truly exceptional!🌟",
+      "where_i_work_title": "Where I <Work>",
+    "where_i_work": ["Currently based in Bandung, Indonesia", "Willing to relocate for work accross Indonesia and Worldwide", "Available for remote colaborations and freelance projects"],
+      "image": "myProfile.jpg",
+      "tech_stacks": ["devicon:nextjs", "devicon:react", "devicon:flutter" ]
+    },
+    "projects": {
+      "title": "projects",
+      "projects": [
+        {
+          "title": "Animal Shelter",
+          "startDate": "2020",
+          "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+          "images": [
+            "images/portfolio/animal-shelter/p1.jpg",
+            "images/portfolio/animal-shelter/p2.jpg"
+          ],
+          "url": "https://github.com",
+          "technologies": [
+            {
+              "class": "mdi:angular",
+              "name": "Angular"
+            },
+            {
+              "class": "teenyicons:typescript-outline",
+              "name": "TypeScript"
+            },
+            {
+              "class": "devicon:csharp",
+              "name": "C#"
+            }
+          ]
+        },
+        {
+          "title": "Photography",
+          "startDate": "2018",
+          "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+          "images": [
+            "images/portfolio/photography/p1.jpg",
+            "images/portfolio/photography/p2.jpg"
+          ],
+          "url": "https://github.com",
+          "technologies": [
+            {
+              "class": "mdi:react",
+              "name": "React"
+            },
+            {
+              "class": "teenyicons:javascript-outline",
+              "name": "JavaScript"
+            }
+          ]
+        },
+        {
+          "title": "3D Object Viewer",
+          "startDate": "2015",
+          "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+          "images": [
+            "images/portfolio/adventure/p1.jpg",
+            "images/portfolio/adventure/p2.jpg"
+          ],
+          "url": "https://github.com",
+          "technologies": [
+            {
+              "class": "mdi:angular",
+              "name": "Angular"
+            },
+            {
+              "class": "teenyicons:typescript-outline",
+              "name": "TypeScript"
+            },
+            {
+              "class": "devicon:csharp",
+              "name": "C#"
+            }
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "title": "Teknologi yang Saya Kuasai",
+      "subtitle": "Saya telah menjelajahi berbagai teknologi dan alat untuk menciptakan pengalaman web yang luar biasa. Inilah beberapa teknologi terkini yang telah saya eksplorasi:",  
+      "icons": [
+        {
+          "name": "React",
+          "class": "carbon:logo-react"
+        },
+        {
+          "name": "React Native",
+          "class": "tabler:brand-react-native"
+        },
+        {
+          "name": "Flutter",
+          "class": "ri:flutter-fill"
+        },
+        {
+          "name": "Dart",
+          "class": "simple-icons:dart"
+        },
+        {
+          "name": "webpack",
+          "class": "devicon-plain:webpack"
+        },
+        {
+          "name": "Next.js",
+          "class": "file-icons:nextjs"
+        },
+        {
+          "name": "Express.js",
+          "class": "simple-icons:express"
+        },
+  
+        {
+          "name": "Material-UI",
+          "class": "simple-icons:mui"
+        },
+        {
+          "name": "HTML 5",
+          "class": "ri:html5-fill"
+        },
+        {
+          "name": "CSS 3",
+          "class": "teenyicons:css3-solid"
+        },
+        {
+          "name": "Tailwind CSS",
+          "class": "simple-icons:tailwindcss"
+        },
+        {
+          "name": "SCSS",
+          "class": "bi:filetype-scss"
+        },
+        {
+          "name": "TypeScript",
+          "class": "teenyicons:typescript-solid"
+        },
+        {
+          "name": "JavaScript",
+          "class": "teenyicons:javascript-solid"
+        },
+        {
+          "name": "Sass",
+          "class": "la:sass"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "ri:bootstrap-fill"
+        },
+        {
+          "name": "Mongo DB",
+          "class": "simple-icons:mongodb"
+        },
+        {
+          "name": "MySql",
+          "class": "fontisto:mysql"
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experience",
+      "experiences": [
+        {
+          "company": "DefOpenSource",
+          "title": "Front-End Developer",
+          "years": "10.2019 - present",
+          "mainTech": "Angular 8/9/10",
+          "mainTechIcon": "mdi:angular",
+          "technologies": [
+            "REST API",
+            "RxJS",
+            "JavaScript",
+            "Bootstrap",
+            "MDBootstrap",
+            "EF Core",
+            ".NET Core",
+            "SignalR",
+            "Angular Material"
+          ]
+        },
+        {
+          "company": "Serros Solutions",
+          "title": "Intern",
+          "years": "01.2018 - 09.2019",
+          "mainTech": "React",
+          "mainTechIcon": "mdi:react",
+          "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+        }
+      ]
+    },
+    "copyright": "Copyright"
+  }
+  
