@@ -5,7 +5,7 @@ import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/hayati-uyun-frontend-dev-portfolio/",
+  base: "/portofolio/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src/"),
