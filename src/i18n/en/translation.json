@@ -326,5 +326,6 @@
     "rocket-dark": "/rocket-dark.png",
     "rocket": "/rocket.png"   
   },
-  "copyright": "Copyright"
+  "copyright": "Copyright",
+  "logo": "striking.png"
 }
