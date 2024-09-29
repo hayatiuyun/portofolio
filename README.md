@@ -1,74 +1,63 @@
-<img width="80%" align="center" src="https://github.com/devmahmud/hayati-uyun-frontend-dev-portfolio/blob/main/demo/portfolio_mockup.png" alt="portfolio template mockup" /> <br/>
-<img height="350px" align="right" src="https://github.com/devmahmud/hayati-uyun-frontend-dev-portfolio/blob/main/demo/mobile-demo.gif" alt="portfolio mobile demo gif"/>
+# Hayati Uyun - Frontend Developer Portfolio
 
-<img align="left" src="https://github.com/leungwensen/svg-icon/blob/master/dist/svg/logos/react.svg" height="50" alt="react icon"/>
-<h2>React Tailwind Portfolio Template</h2>
+Welcome to my portfolio project! This repository showcases my skills, projects, and experience as a frontend developer.
 
-<pre>
-⭐ Easy to adapt and deploy portfolio project covering most important 
-sections(about, exp, skills, projects), inspired with solutions found 
-at GitHub. Check live preview(link below).
-</pre>
+## Table of Contents
+- [About Me](#about-me)
+- [Projects](#projects)
+- [Skills](#skills)
+- [Contact](#contact)
 
-<strong>:crown: advantages</strong>
+## About Me
+I am Hayati Uyun, a passionate frontend developer with a knack for creating visually appealing and user-friendly web applications. I have experience working with various frontend technologies and am always eager to learn and adapt to new challenges.
 
-<img src="https://img.shields.io/badge/-multilingual-blue" alt="multilingual"/> &nbsp; <img src="https://img.shields.io/badge/-mobile friendly-blue" alt="mobile friendly"/> &nbsp; <img src="https://img.shields.io/badge/-light/dark mode-blue" alt="light/dark mode"/> &nbsp; <img src="https://img.shields.io/badge/-json fetched data-blue" alt="json fetched data"/> &nbsp; <img src="https://img.shields.io/badge/-minimalistic-blue" alt="minimalistic"/> &nbsp; <img src="https://img.shields.io/badge/-expandable-blue" alt="expandable"/>
+## Projects
+- **Smart IoT Dashboard** (2023)
+  - Smart IoT Dashboard for Universitas Semarang, Indonesia, integrating features such as real-time monitoring of water, power, and room conditions.
+  - The dashboard includes a map interface for device location tracking and graphic charts for in-depth data analysis.
+  - This solution enables efficient resource management and provides actionable insights for enhanced operational efficiency.
+  - **Technologies:** React, Next.js, Tailwind CSS, Material-UI, Highchart, Redux, JavaScript
+  - ![Image](/public/images/portfolio/iot-smart-dashboard/unnes.png)
 
-<br/>
+- **Library App** (2020)
+  - Built with React Native for cross-platform frontend.
+  - Configured with Java for Android-specific functionalities.
+  - Uses React Navigation for UI and Axios for API integration.
+  - Features book catalog, borrowing, and user management.
+  - **Technologies:** React Native, React Navigation, Java, Axios, JavaScript, Expo
+  - ![Image](/public/images/portfolio/bits-library/img-1.png)
+  - [GitHub](https://github.com)
 
-<h3>:eye_speech_bubble: Live demo</h3>
+- **Lab Tools App** (2020)
+  - Created with Dart Flutter for dynamic UI.
+  - Integrates Firebase Cloud Messaging for notifications.
+  - Backend powered by PHP, MySQL for data management.
+  - Facilitates lab tool lending, borrowing, and user tracking.
+  - **Technologies:** Flutter, Dart, Firebase Cloud Messaging, PHP, MySQL
+  - ![Image](/public/images/portfolio/pintools/img-1.png)
+  - [GitHub](https://github.com)
 
-Check live demonstration <a href="https://devmahmud.github.io/hayati-uyun-frontend-dev-portfolio/"><strong>here</strong></a>
+- **Smart Manufacture Dashboard** (2019)
+  - Developed with Bootstrap, jQuery, PHP, HTML, and JavaScript.
+  - Enables data management and monitoring for Kimia Farma's pharmaceutical manufacturing processes.
+  - **Technologies:** PHP, Bootstrap, JQuery, JavaScript, HTML 5, CSS 3
+  - ![Image](/public/images/portfolio/kimia-farma/img-1.png)
+  - [GitHub](https://github.com)
 
-<img width="100%" src="https://github.com/devmahmud/hayati-uyun-frontend-dev-portfolio/blob/main/demo/react_portfolio_about.png" alt="react frontend dev portfolio preview"/>
+## Skills
+- HTML5, CSS3, SCSS, JavaScript, Typescript
+- React, Next.JS, Vue.js
+- Responsive Design, Figma
+- Version Control (Git)
+- Web Performance Optimization
 
-<h3>:books: Getting started</h3>
+## Contact
+- **Email:** [hayatiuyun@gmail.com](mailto:hayatiuyun@gmail.com)
+- **LinkedIn:** [in/hayati-uyun](https://linkedin.com/in/hayati-uyun)
+- **Portfolio Website:** [hayatiuyun.github.io/portofolio](https://hayatiuyun.github.io/portofolio)
 
-1. Clone or fork project.
-2. Install required dependencies with `yarn install`.
-3. Remove `homepage` entirely from `package.json` or set it to single dot. 
+Feel free to reach out if you have any questions or if you would like to collaborate on a project!
 
-```json
-// package.json
-{
-  "name": "hayati-uyun-frontend-dev-portfolio",
-  "homepage": "https://devmahmud.github.io/hayati-uyun-frontend-dev-portfolio/",   <-- remove/edit this
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-  ...
-}
-```
+---
 
-4. `yarn dev` project and customize it.
-5. Deploy on github-pages using `yarn deploy` command.
-
-<pre>
-⚠️ Note that:
-- if you want to have portfolio on different repository than `{username}.github.io`, 
-set `homepage` in `package.json` to `https://{username}.github.io/{repository-name}/` 
-before deploying portfolio.
-- You also need to change the `base` inside `vite.config.ts`
-- if you want to run it locally with <strong>yarn dev</strong>, make sure that you have edited 
-homepage property or json data won't load.
-</pre>
-
-<h3>:star: Inspirations</h3>
-
-<a href="https://github.com/tailwindlabs/tailwindcss">Tailwindcss</a> <br/>
-<a href="https://github.com/stephane-monnot/react-vertical-timeline">React Vertical Timeline</a> <br/>
-<a href="https://github.com/rcaferati/react-awesome-slider">React Awesome Slider</a> <br/>
-<a href="https://github.com/markusenglund/react-switch">React Switch</a> <br/>
-<a href="https://github.com/maxeth/react-type-animation">React Type Animation</a> <br/>
-<a href="https://iconify.design/icon-sets/?query=angular">Iconify Design</a> <br/>
-
-<h3>:gear: Contribution</h3>
-
-If you have any suggestions on what to improve in <em>hayati-uyun-frontend-dev-portfolio</em> and would like to share them, feel free to leave an issue or fork project to implement your own ideas :slightly_smiling_face:
-
-<h3>:gear: Credits(Source Code)</h3>
-This project is complete rewrite of [Dorota1997/hayati-uyun-frontend-dev-portfolio](https://github.com/Dorota1997/hayati-uyun-frontend-dev-portfolio)
-
-<h3>:camera: Credits(images)</h3>
-
-<a href="https://pixabay.com/photos/people-woman-girl-clothing-eye-2563491/">p1</a>, <a href="https://pixabay.com/photos/dog-puppy-sharpei-petit-animal-1865712/">p2</a>, <a href="https://pixabay.com/photos/night-camera-photographer-photo-1927265/">p3</a>, <a href="https://pixabay.com/photos/road-forest-season-autumn-fall-1072823/">p4</a>, <a href="https://pixabay.com/photos/neuschwanstein-castle-bavaria-701732/">p5</a>, <a href="https://pixabay.com/photos/hohenschwangau-alps-alpsee-bavaria-532864/">p6</a>
+Thank you for visiting my portfolio!
